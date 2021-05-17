@@ -33,6 +33,7 @@ pipeline {
                                     docker {
                                             reuseNode true
                                             image 'ubuntu'
+                                            label 'docker'
                                            }
                                     }
                               steps {
